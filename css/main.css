@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+.logo img{
+    width: 250px;
+    height: 100px;
+}
+
+
+
+.socials  {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
