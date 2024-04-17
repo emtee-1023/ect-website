@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecemplar Clean Team | Home</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- example: <i class='bx bx-user'></i> -->
 </head>
@@ -15,16 +16,29 @@
         </div>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Gallery</li>
-                <li>Services</li>
-                <li>Contact</li>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <div class="socials">
-            <i class='bx bxl-facebook-circle' style='color:#1f2d58' ></i>
-            <i class='bx bxl-twitter' style='color:#1f2d58' ></i>
-            <i class='bx bxl-instagram-alt' style='color:#1f2d58' ></i>
+            <i class='bx bxl-facebook-circle bx-sm'></i>
+            <i class='bx bxl-twitter bx-sm'></i>
+            <i class='bx bxl-instagram-alt bx-sm'></i>
+        </div>
+        <div class="menu">
+            <i class='bx bx-menu bx-lg open' id="open" onclick="openMenu()"></i>
+            <i class='bx bx-window-close bx-lg close' id="close" onclick="closeMenu()"></i>
+        </div>
+        <!-- MOBILE NAV -->
+        <div class="mobile-nav">
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </div>
     </header>
 
@@ -38,6 +52,7 @@
         <div class="hero"></div>
 
     </main>
-    
+  
+<script src="js/script.js"></script>
 </body>
 </html>
