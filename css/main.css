@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'rowdies-light';
-    src: url('/fonts/Rowdies-Light.ttf');
+    src: url('../fonts/Rowdies-Light.ttf');
 }
 
 @font-face {
     font-family: 'rowdies-regular';
-    src: url('/fonts/Rowdies-Regular.ttf');
+    src: url('../fonts/Rowdies-Regular.ttf');
 }
 
 @font-face {
     font-family: 'rowdies-bold';
-    src: url('/fonts/Rowdies-Bold.ttf');
+    src: url('../fonts/Rowdies-Bold.ttf');
 }
 
 :root {
@@ -38,7 +38,7 @@ html {
 body {
     font-family: var(--font-light);
     min-height: 100vh;
-    background-image: url('/img/bg\ desktop.svg');
+    background-image: url('../img/bg\ desktop.svg');
     background-repeat: no-repeat;
     
 }
