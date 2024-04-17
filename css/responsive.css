@@ -1,4 +1,4 @@
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1000px) {
     nav,.socials{
         display: none;
     }
@@ -11,13 +11,39 @@
     header {
         padding: 0;
         justify-content: center;
+        background-color: var(--white);
     }
 
     header .logo {
-        flex-grow: 0.8;
         display: flex;
-        justify-content: center;
+        width: 100%;
+        justify-content: flex-start;
     }
+
+    /* LANDING */
+    .landing {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        margin: 0;
+    }
+    .grid-left {
+        grid-row: 2/3;
+        align-items: center;
+        margin: 0;
+    }
+    .grid-right {
+        grid-row: 1/2;
+    }
+    .main-title {
+        text-align: center;
+        max-width: 600px;
+    }
+    .description {
+        text-align: center;
+        max-width: 550px;
+    }
+
+
 
 }
 
