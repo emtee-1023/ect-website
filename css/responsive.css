@@ -43,6 +43,14 @@
         max-width: 550px;
     }
 
+    /* SERVICES SECTION */
+
+    .services-grid {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto;
+        justify-items: center;
+    }
+
 
 
 }
